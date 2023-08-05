@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#33558b</color>
+    <color name="purple_500">#33558b</color>
+    <color name="purple_700">#33558b</color>
+    <color name="teal_200">#33558b</color>
+    <color name="teal_700">#33558b</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="main_color">#33558b</color>
+    <color name="error_color">#F83E3E</color>
+    <color name="matla_color">#F5F5F5</color>
+
+    <color name="color1">#ffffff</color>
+    <color name="color2">#ebeef3</color>
+    <color name="color3">#d6dde8</color>
+    <color name="color4">#c2ccdc</color>
+    <color name="color5">#adbbd1</color>
+    <color name="color6">#99aac5</color>
+    <color name="color7">#8599b9</color>
+    <color name="color8">#7088ae</color>
+    <color name="color9">#5c77a2</color>
+    <color name="color10">#476697</color>
+
+</resources>

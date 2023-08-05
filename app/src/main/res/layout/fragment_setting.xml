@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingStart="30dp"
+    tools:context=".fragment.MatlaFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Setting"
+        android:textColor="#33558b"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Height"
+            android:textColor="@color/main_color"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  (required)"
+            android:textColor="#F83E3E"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/settingHeightEt"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_underline"
+        android:hint="Height / inch"
+        android:inputType="number"
+        android:maxLines="1"
+        android:paddingVertical="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weight"
+            android:textColor="@color/main_color"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  (required)"
+            android:textColor="#F83E3E"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/settingWeightEt"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_underline"
+        android:hint="Weight / pound"
+        android:inputType="number"
+        android:maxLines="1"
+        android:paddingVertical="5dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Age"
+            android:textColor="@color/main_color"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  (required)"
+            android:textColor="#F83E3E"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/settingAgeEt"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_age"
+        android:hint=""
+        android:inputType="number"
+        android:maxLines="1"
+        android:paddingVertical="5dp"
+        android:paddingStart="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Measurement Time"
+            android:textColor="@color/main_color"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  (default: 2 hours)"
+            android:textColor="#F83E3E"
+            android:textSize="16sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/settingMeasureTimeSp"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_spinner_age"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:paddingVertical="5dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/saveDataBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bg_login_btn"
+        android:text="Save"
+        android:textColor="@color/white" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/signOutTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bg_logout_btn"
+        android:text="Sign out"
+        android:textColor="@color/white" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/withdrawBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bg_logout_btn"
+        android:text="Withdrawal"
+        android:textColor="@color/white" />
+
+</LinearLayout>

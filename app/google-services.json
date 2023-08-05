@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "334737703841",
+    "firebase_url": "https://sensomedi-5678e-default-rtdb.firebaseio.com",
+    "project_id": "sensomedi-5678e",
+    "storage_bucket": "sensomedi-5678e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:334737703841:android:8ccfb27c5536cd5941c1e0",
+        "android_client_info": {
+          "package_name": "com.sensomedi.matla"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "334737703841-4jdiaqdm4a5c32q24psu2tp3sqcn7h9a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTm53QolZRK5YbBUM3LcQIdq537QFxpn4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "334737703841-4jdiaqdm4a5c32q24psu2tp3sqcn7h9a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "334737703841-3k2hpstljlgrlbr266h98778bmilibq5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sensomedi.matla"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

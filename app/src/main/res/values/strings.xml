@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Matla</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="color_list">
+        <item>@color/color1</item>
+        <item>@color/color2</item>
+        <item>@color/color3</item>
+        <item>@color/color4</item>
+        <item>@color/color5</item>
+        <item>@color/color6</item>
+        <item>@color/color7</item>
+        <item>@color/color8</item>
+        <item>@color/color9</item>
+        <item>@color/color10</item>
+        <item>@color/main_color</item>
+    </string-array>
+
+</resources>
